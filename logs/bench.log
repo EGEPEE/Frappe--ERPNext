@@ -1,0 +1,7 @@
+2019-04-02 09:18:34,598 INFO getting app erpnext-training
+2019-04-02 09:18:34,601 INFO git clone https://training@dev.azure.com/devmis004/erpnext-training/_git/erpnext-training  --depth 1 --origin upstream
+2019-04-02 09:19:08,464 INFO installing erpnext
+2019-04-02 09:19:08,464 INFO ./env/bin/pip install -q  -e ./apps/erpnext 
+2019-04-02 10:16:47,004 INFO creating new app libraryku
+2019-04-02 10:19:18,789 INFO installing libraryku
+2019-04-02 10:19:18,790 INFO ./env/bin/pip install -q  -e ./apps/libraryku 
