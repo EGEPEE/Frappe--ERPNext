@@ -1,3 +1,26 @@
+.cell-title {
+	font-weight: bold;
+}
+
+.cell-effort-driven {
+	text-align: center;
+}
+
+.toggle {
+	height: 9px;
+	width: 9px;
+	display: inline-block;
+	visibility: visible;
+}
+
+.toggle.expand {
+	background: url("/assets/frappe/js/lib/slickgrid/images/expand.gif") no-repeat center center;
+}
+
+.toggle.collapse {
+	background: url("/assets/frappe/js/lib/slickgrid/images/collapse.gif") no-repeat center center;
+}
+
 /* palette colors*/
 .grid-report .plot {
   margin: 15px;
@@ -51,6 +74,91 @@
 }
 .column-picker-dialog .add-btn {
   margin-bottom: 2px;
+}
+
+/* palette colors*/
+.datatable {
+  margin-left: -1px;
+  margin-top: -1px;
+  font-size: 12px;
+}
+.datatable .frappe-control,
+.datatable .form-control {
+  margin: 0;
+  border-radius: 0px;
+  border: none;
+  background-color: transparent;
+}
+.datatable .form-group {
+  margin: 0;
+}
+.datatable .link-btn {
+  top: 6px;
+}
+.datatable select {
+  height: 27px;
+}
+.datatable .checkbox {
+  margin: 7px 0 7px 8px;
+}
+.datatable [data-fieldtype="Color"] .control-input {
+  overflow: hidden;
+}
+.dt-scrollable {
+  max-height: calc(100vh - 250px);
+}
+table td.dt-cell {
+  position: relative;
+}
+.dt-cell__edit {
+  padding: 0;
+}
+.dt-cell__edit input {
+  font-size: inherit;
+  height: 27px;
+}
+.dt-header {
+  --dt-header-cell-bg: #f7fafc;
+  --dt-cell-bg: #f7fafc;
+  --dt-text-color: #8d99a6;
+}
+.dt-header .dt-row[data-is-filter] {
+  display: flex !important;
+}
+.dt-row.dt-row-totalRow {
+  font-weight: bold;
+}
+.dt-row.row-update {
+  animation: 500ms breathe forwards;
+}
+.report-action-checkbox {
+  margin: 0;
+  margin-left: 10px;
+}
+.report-action-checkbox .checkbox {
+  margin: 0;
+}
+.report-action-checkbox .help-box {
+  display: none;
+}
+.dt-filter {
+  border: 1px solid #ebeff2;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.dt-tree-node__toggle + a {
+  margin-left: 4px;
+}
+@keyframes breathe {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #fffdf4;
+  }
+  100% {
+    background-color: transparent;
+  }
 }
 
 :root {
@@ -375,112 +483,4 @@
 
 body.dt-resize {
     cursor: col-resize;
-}
-
-.cell-title {
-	font-weight: bold;
-}
-
-.cell-effort-driven {
-	text-align: center;
-}
-
-.toggle {
-	height: 9px;
-	width: 9px;
-	display: inline-block;
-	visibility: visible;
-}
-
-.toggle.expand {
-	background: url("/assets/frappe/js/lib/slickgrid/images/expand.gif") no-repeat center center;
-}
-
-.toggle.collapse {
-	background: url("/assets/frappe/js/lib/slickgrid/images/collapse.gif") no-repeat center center;
-}
-
-/* palette colors*/
-.datatable {
-  margin-left: -1px;
-  margin-top: -1px;
-  font-size: 12px;
-}
-.datatable .frappe-control,
-.datatable .form-control {
-  margin: 0;
-  border-radius: 0px;
-  border: none;
-  background-color: transparent;
-}
-.datatable .form-group {
-  margin: 0;
-}
-.datatable .link-btn {
-  top: 6px;
-}
-.datatable select {
-  height: 27px;
-}
-.datatable .checkbox {
-  margin: 7px 0 7px 8px;
-}
-.datatable [data-fieldtype="Color"] .control-input {
-  overflow: hidden;
-}
-.dt-scrollable {
-  max-height: calc(100vh - 250px);
-}
-table td.dt-cell {
-  position: relative;
-}
-.dt-cell__edit {
-  padding: 0;
-}
-.dt-cell__edit input {
-  font-size: inherit;
-  height: 27px;
-}
-.dt-header {
-  --dt-header-cell-bg: #f7fafc;
-  --dt-cell-bg: #f7fafc;
-  --dt-text-color: #8d99a6;
-}
-.dt-header .dt-row[data-is-filter] {
-  display: flex !important;
-}
-.dt-row.dt-row-totalRow {
-  font-weight: bold;
-}
-.dt-row.row-update {
-  animation: 500ms breathe forwards;
-}
-.report-action-checkbox {
-  margin: 0;
-  margin-left: 10px;
-}
-.report-action-checkbox .checkbox {
-  margin: 0;
-}
-.report-action-checkbox .help-box {
-  display: none;
-}
-.dt-filter {
-  border: 1px solid #ebeff2;
-  border-radius: 3px;
-  background-color: #fff;
-}
-.dt-tree-node__toggle + a {
-  margin-left: 4px;
-}
-@keyframes breathe {
-  0% {
-    background-color: transparent;
-  }
-  50% {
-    background-color: #fffdf4;
-  }
-  100% {
-    background-color: transparent;
-  }
 }
