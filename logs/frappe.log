@@ -834,3 +834,504 @@ Queued events for site mis.training.local
 [DEBUG] 2019-04-05 10:36:31,355 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
 Site: mis.training.local
 Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:04:51,603 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:05:52,347 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:06:52,497 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:07:52,653 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:09:10,254 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:10:13,757 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:11:19,746 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:12:38,827 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:13:42,179 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:14:42,402 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:15:42,570 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:16:42,939 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:17:43,212 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:18:43,387 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:19:43,562 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[ERROR] 2019-04-05 14:20:31,999 | /opt/erpnext/frappe-training/apps/frappe/frappe/app.py:
+Site: mis.training.local
+Form Dict: {
+ "cmd": "frappe.core.doctype.user.user.reset_password",
+ "user": "tio@gmail.com"
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/core/doctype/user/user.py", line 813, in reset_password
+    user.reset_password(send_email=True)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/core/doctype/user/user.py", line 227, in reset_password
+    self.password_reset_mail(link)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/core/doctype/user/user.py", line 246, in password_reset_mail
+    "password_reset", {"link": link}, now=True)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/core/doctype/user/user.py", line 295, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 463, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/email/queue.py", line 69, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/email/smtp.py", line 86, in get_outgoing_email_account
+    frappe.OutgoingEmailError)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 351, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red')
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 337, in msgprint
+    _raise_exception()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 310, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+[ERROR] 2019-04-05 14:20:33,874 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/core/doctype/user/user.py", line 813, in reset_password
+    user.reset_password(send_email=True)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/core/doctype/user/user.py", line 227, in reset_password
+    self.password_reset_mail(link)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/core/doctype/user/user.py", line 246, in password_reset_mail
+    "password_reset", {"link": link}, now=True)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/core/doctype/user/user.py", line 295, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 463, in sendmail
+    inline_images=inline_images, header=header, print_letterhead=print_letterhead)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/email/queue.py", line 69, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/email/smtp.py", line 86, in get_outgoing_email_account
+    frappe.OutgoingEmailError)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 351, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red')
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 337, in msgprint
+    _raise_exception()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 310, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-04-05 14:20:43,772 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:21:44,175 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:22:44,340 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:23:44,755 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:24:45,184 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:25:45,395 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:26:45,554 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:27:45,710 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:28:45,921 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:29:46,100 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:30:46,296 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:31:46,435 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:32:46,581 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:33:46,767 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:34:46,955 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:35:47,118 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:36:47,285 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:37:47,441 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:38:47,608 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:39:47,994 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:40:48,173 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:41:48,333 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:42:48,487 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:43:48,789 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:44:48,941 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:45:49,098 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:46:49,240 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:47:49,402 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:48:49,561 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:49:49,710 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:50:49,919 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:51:50,046 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:52:50,198 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:53:50,385 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:54:50,513 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:55:50,641 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:56:50,790 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:57:50,913 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:58:51,104 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 14:59:51,297 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:00:51,474 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:01:51,594 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:02:51,799 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:03:51,962 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:04:52,113 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:05:52,304 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:06:52,490 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:07:52,630 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:08:52,792 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:09:52,913 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:10:53,089 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:11:53,273 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:12:53,466 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:13:53,712 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:14:53,830 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:15:53,951 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:16:54,113 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:17:54,239 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:18:54,360 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:19:54,486 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:20:54,639 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:21:54,763 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:22:54,896 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:23:55,033 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:24:55,193 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:25:55,385 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:26:55,544 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:27:55,679 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:28:55,832 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:29:55,965 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:30:56,148 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:31:56,281 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:32:56,421 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:33:56,553 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:34:56,695 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:35:56,843 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:36:57,012 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:37:57,159 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:38:57,294 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:39:57,429 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:40:57,576 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:41:57,706 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:42:57,892 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:43:58,021 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:44:58,179 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:45:58,371 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:46:58,501 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:47:58,641 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:48:58,789 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:49:58,964 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:50:59,090 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:51:59,215 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:52:59,356 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:53:59,559 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:54:59,692 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:55:59,828 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:56:59,981 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:58:00,123 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 15:59:00,347 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:00:00,507 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:01:00,664 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:02:00,853 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:03:00,965 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:04:01,109 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:05:01,235 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:06:01,372 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:07:01,489 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:08:01,632 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:09:01,787 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:10:01,920 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:11:02,044 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:12:02,220 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:13:02,343 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:14:02,506 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:15:02,616 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:16:02,780 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:17:02,916 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:18:03,082 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:19:03,645 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:20:03,835 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:21:04,007 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:22:04,135 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:23:04,267 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:24:04,482 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:25:04,651 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 16:26:04,766 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local

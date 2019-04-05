@@ -25,6 +25,10 @@ def get_data():
             "items": [
                 {
                     "type": "doctype",
+                    "name":"Request Pinjaman" 
+                },
+                {
+                    "type": "doctype",
                     "name":"Pinjaman" 
                 },
                 {
