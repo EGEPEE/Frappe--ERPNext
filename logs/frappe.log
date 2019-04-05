@@ -180,3 +180,657 @@ Queued events for site mis.training.local
 [DEBUG] 2019-04-04 16:59:08,412 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
 Site: mis.training.local
 Queued events for site mis.training.local
+[DEBUG] 2019-04-04 17:00:08,756 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-04 17:01:09,032 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:10:51,189 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:11:53,330 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:12:53,601 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:13:53,760 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:14:53,916 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:15:54,056 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:16:55,075 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:17:55,460 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:18:55,672 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:19:55,891 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:20:56,128 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:21:56,322 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:22:56,467 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:24:45,168 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:25:45,528 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:26:45,714 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:27:45,896 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:28:46,209 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:29:46,407 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:30:46,566 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:31:46,722 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[ERROR] 2019-04-05 09:32:25,291 | /opt/erpnext/frappe-training/apps/frappe/frappe/app.py:
+Site: mis.training.local
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Request Pinjaman",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 71, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 81, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 174, in load_templates
+    module = load_doctype_module(self.name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/modules/utils.py", line 185, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 795, in get_module
+    return importlib.import_module(modulename)
+  File "/opt/erpnext/frappe-training/env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/erpnext/frappe-training/apps/libraryku/libraryku/library_ku/doctype/request_pinjaman/request_pinjaman.py", line 16
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2019-04-05 09:32:25,404 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 71, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 81, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 174, in load_templates
+    module = load_doctype_module(self.name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/modules/utils.py", line 185, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 795, in get_module
+    return importlib.import_module(modulename)
+  File "/opt/erpnext/frappe-training/env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/erpnext/frappe-training/apps/libraryku/libraryku/library_ku/doctype/request_pinjaman/request_pinjaman.py", line 16
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-04-05 09:32:25,721 | /opt/erpnext/frappe-training/apps/frappe/frappe/app.py:
+Site: mis.training.local
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Request Pinjaman",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 71, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 81, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 174, in load_templates
+    module = load_doctype_module(self.name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/modules/utils.py", line 185, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 795, in get_module
+    return importlib.import_module(modulename)
+  File "/opt/erpnext/frappe-training/env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/erpnext/frappe-training/apps/libraryku/libraryku/library_ku/doctype/request_pinjaman/request_pinjaman.py", line 16
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2019-04-05 09:32:25,766 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 71, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 81, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 174, in load_templates
+    module = load_doctype_module(self.name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/modules/utils.py", line 185, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 795, in get_module
+    return importlib.import_module(modulename)
+  File "/opt/erpnext/frappe-training/env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/erpnext/frappe-training/apps/libraryku/libraryku/library_ku/doctype/request_pinjaman/request_pinjaman.py", line 16
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-04-05 09:32:34,224 | /opt/erpnext/frappe-training/apps/frappe/frappe/app.py:
+Site: mis.training.local
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Request Pinjaman",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 71, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 81, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 174, in load_templates
+    module = load_doctype_module(self.name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/modules/utils.py", line 185, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 795, in get_module
+    return importlib.import_module(modulename)
+  File "/opt/erpnext/frappe-training/env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/erpnext/frappe-training/apps/libraryku/libraryku/library_ku/doctype/request_pinjaman/request_pinjaman.py", line 16
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2019-04-05 09:32:34,254 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 71, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 81, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 174, in load_templates
+    module = load_doctype_module(self.name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/modules/utils.py", line 185, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 795, in get_module
+    return importlib.import_module(modulename)
+  File "/opt/erpnext/frappe-training/env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/erpnext/frappe-training/apps/libraryku/libraryku/library_ku/doctype/request_pinjaman/request_pinjaman.py", line 16
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-04-05 09:32:39,574 | /opt/erpnext/frappe-training/apps/frappe/frappe/app.py:
+Site: mis.training.local
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Request Pinjaman",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 71, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 81, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 174, in load_templates
+    module = load_doctype_module(self.name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/modules/utils.py", line 185, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 795, in get_module
+    return importlib.import_module(modulename)
+  File "/opt/erpnext/frappe-training/env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/erpnext/frappe-training/apps/libraryku/libraryku/library_ku/doctype/request_pinjaman/request_pinjaman.py", line 16
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2019-04-05 09:32:39,650 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 71, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/load.py", line 81, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/form/meta.py", line 174, in load_templates
+    module = load_doctype_module(self.name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/modules/utils.py", line 185, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 795, in get_module
+    return importlib.import_module(modulename)
+  File "/opt/erpnext/frappe-training/env/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/erpnext/frappe-training/apps/libraryku/libraryku/library_ku/doctype/request_pinjaman/request_pinjaman.py", line 16
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-04-05 09:32:46,972 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:33:47,158 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:34:47,337 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:35:47,564 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:36:47,754 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:37:47,970 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:38:48,245 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:39:48,540 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:40:48,722 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:41:48,888 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:42:49,118 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:43:49,291 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:44:49,441 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:45:49,740 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:46:49,947 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:47:50,121 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 09:48:50,521 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:04:20,803 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:05:20,957 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:06:23,546 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:07:23,938 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:08:24,381 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:09:24,548 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[ERROR] 2019-04-05 10:09:32,932 | /opt/erpnext/frappe-training/apps/frappe/frappe/app.py:
+Site: mis.training.local
+Form Dict: {
+ "cmd": "frappe.desk.reportview.delete_items",
+ "doctype": "Master Buku",
+ "items": "[\"f7a1900ba8\",2]"
+}
+Request Error
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/reportview.py", line 217, in delete_items
+    il = sorted(json.loads(frappe.form_dict.get('items')), reverse=True)
+TypeError: '<' not supported between instances of 'str' and 'int'
+[ERROR] 2019-04-05 10:09:33,077 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/app.py", line 61, in application
+    response = frappe.handler.handle()
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/__init__.py", line 1019, in call
+    return fn(*args, **newargs)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/desk/reportview.py", line 217, in delete_items
+    il = sorted(json.loads(frappe.form_dict.get('items')), reverse=True)
+TypeError: '<' not supported between instances of 'str' and 'int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/opt/erpnext/frappe-training/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2019-04-05 10:10:24,707 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:11:24,849 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:12:25,086 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:13:25,343 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:14:25,492 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:15:25,619 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:16:25,773 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:17:25,901 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:18:26,018 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:19:26,137 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:20:26,295 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:21:26,453 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:22:26,581 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:23:28,741 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:24:28,965 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:25:29,287 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:26:29,465 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:27:29,637 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:28:29,919 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:29:30,096 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:30:30,288 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:31:30,459 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:32:30,645 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:33:30,859 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:34:30,983 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:35:31,163 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
+[DEBUG] 2019-04-05 10:36:31,355 | /opt/erpnext/frappe-training/apps/frappe/frappe/utils/scheduler.py:
+Site: mis.training.local
+Queued events for site mis.training.local
